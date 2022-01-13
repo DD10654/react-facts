@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #21222A;
+    display: flex;
+    height: 80px;
+}
+
+.text-color {
+    color: #61DAFB;
+    padding-top: 5px;
+    padding-right: 50px;
+    transform: translate(18px, -10px);
+    font-family: 'M PLUS 1', sans-serif;
+    margin-right: auto;
+}
+
+.sub-title {
+    color: #DEEBF8 !important;
+    padding-top: 13px;
+    transform: translate(-15px, -5px);
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    margin-top: 22px;
+    margin-left: 5px;
+    transform: translate(10px, 0px);
+}
+
+.main {
+    background-color: #282D35;
+    height: 362px;
+    margin-top: -10px;
+    padding-top: 20px;
+    background-image: url('./images/react-icon-large.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 2rem;
+}
+
+.main--title {
+    transform: translate(15px, 0px);
+    width: 70%;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.main--list {
+    color: #FFFFFF;
+    padding-bottom: 10px
+}
+
+.main--list-item {
+    transform: translate(0px, 5px);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main--list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
